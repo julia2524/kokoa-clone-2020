@@ -17,14 +17,6 @@
 }
 
 .nav__notification__nb {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    color: white;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     left: 15px;
     bottom: 10px;
@@ -32,13 +24,15 @@
 }
 .nav__notification {
     background-color: tomato;
-    width: 5px;
-    height: 5px;
     display: flex;
     color: white;
     border-radius: 50%;
+
     justify-content: center;
     align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 5px;
     position: absolute;
     left: 20px;
     bottom: 18px;
