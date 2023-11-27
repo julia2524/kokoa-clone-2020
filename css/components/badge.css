@@ -1,4 +1,4 @@
-.badge {    
+.badge_nb {    
     background-color: tomato;
     width: 20px;
     height: 20px;
@@ -8,4 +8,21 @@
     justify-content: center;
     align-items: center;
     float: right;
+}
+
+.badge_comma {
+    background-color: tomato;
+    display: flex;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 23px;
+    bottom: 18px;
+    font-size: 13px;
+    
 }
