@@ -1,0 +1,27 @@
+.nav {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
+  background-color: #fafafa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.nav__btn a {
+  color: inherit;
+}
+.nav__btn i {
+  font-size: 25px;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}

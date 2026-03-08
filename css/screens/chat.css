@@ -1,0 +1,153 @@
+.chat-header__icon {
+  margin-right: 18px;
+}
+
+#chat-screen {
+  background-color: #abc1d1;
+  height: 1000vh;
+}
+
+.chat-bar {
+  background-color: #abc1d1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.chat-header {
+  background-color: #abc1d1;
+  position: fixed;
+  top: 15px;
+  width: 100%;
+  z-index: 1;
+}
+.chat-header__column:last-child i:last-child {
+  margin-left: -5px;
+  margin-right: 20px;
+}
+
+.chat-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+}
+.chat-timestamp {
+  margin-top: 100px;
+  background-color: #92a4b2;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.message-row {
+  margin-top: 30px;
+  display: flex;
+  align-self: self-start;
+  margin: 20px;
+}
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.message__other {
+  opacity: 0.4;
+}
+.message__info {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble {
+  background-color: white;
+  padding: 13px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.message__time {
+  opacity: 0.4;
+  font-size: 13px;
+}
+
+.message-row__own {
+  display: flex;
+  align-self: self-end;
+}
+
+.message-row__own .message__info {
+  flex-direction: row-reverse;
+}
+
+.message-row__own .message__bubble {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0;
+  margin-left: 10px;
+  background-color: var(--yellow);
+}
+
+.reply {
+  display: flex;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.reply__column:first-child {
+  margin: 15px;
+}
+.reply__column:first-child i {
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+  opacity: 0.5;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.reply__column:last-child {
+  flex-grow: 1;
+  padding-right: 20px;
+  position: relative;
+}
+
+.reply__column:last-child input {
+  margin: 5px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+.reply__column:last-child > i {
+  position: absolute;
+  right: 65px;
+  top: 23%;
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+.reply__column:last-child button {
+  background-color: var(--yellow);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 20px;
+  top: 15%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reply__column:last-child button > i {
+  font-size: 20px;
+}

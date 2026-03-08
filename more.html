@@ -11,7 +11,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Find Screen</title>
+    <title>More Screen</title>
   </head>
   <body>
     <div class="status-bar">
@@ -29,9 +29,10 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-music"></i>
         <a href="settings.html">
           <i class="fa-solid fa-gear"></i>
         </a>
@@ -39,55 +40,50 @@
     </header>
 
     <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="mascot.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nubzuki</h4>
+            <h6 class="user-component__subtitle">+1 787-493-4219</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message"></i>
+        </div>
+      </div>
+
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fa-solid fa-qrcode"></i>
-          <span>QR Code</span>
+          <i class="fa-regular fa-calendar"></i>
+          <span>Calendar</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-regular fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <i class="fa-regular fa-hard-drive"></i>
+          <span>Talk Drive</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-solid fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fa-regular fa-face-grin-wide"></i>
+          <span>Emoticons</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-regular fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span class="recommended-friends__text"
-          >You have no recommneded friends</span
-        >
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4 class="open-chat__title">Open Chat</h4>
-          <span
-            >Go to Openchat Home
-            <i class="fa-solid fa-angle-right"></i>
-          </span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-post__hashtag">#bts#army#friends</h6>
-            <div class="open-post__members">
-              <img class="open-post__img" src="mascot.png" />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__state">Active</span>
-            </div>
+      <div class="more-suggestions">
+        <h6 class="more-suggestions__title">Suggestions</h6>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <i class="fa-solid fa-single-quote-right"></i>
+            <span class="suggestions__text">Kakao Story</span>
           </div>
-          <div class="open-post__column">
-            <img class="open-post__bg-img" src="mascot.png" />
-            <div class="open-post__heart-count">
-              <i class="fa-solid fa-heart"></i>
-              <span>326</span>
-            </div>
+          <div class="more-suggestions__icon">
+            <i class="fa-solid fa-single-quote-right"></i>
+            <span class="suggestions__text">Kakao Story</span>
           </div>
         </div>
       </div>
